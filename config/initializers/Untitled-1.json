@@ -1,0 +1,216 @@
+
+    "value": {
+        "mask": 2,
+        "format": "decimal",
+        "length": 15,
+        "position": 85,
+        "register": "313"
+    },
+    "issuer": {
+        "name": {
+            "length": 40,
+            "position": 133,
+            "register": "311"
+        },
+        "address": {
+            "city": {
+                "name": {
+                    "length": 35,
+                    "position": 72,
+                    "register": "311"
+                },
+                "state": {
+                    "length": 9,
+                    "position": 116,
+                    "register": "311"
+                }
+            },
+            "line_1": {
+                "length": 40,
+                "position": 32,
+                "register": "311"
+            },
+            "postal_code": {
+                "format": "only_numbers",
+                "length": 9,
+                "position": 107,
+                "register": "311"
+            }
+        },
+        "document": {
+            "length": 14,
+            "position": 3,
+            "register": "311"
+        },
+        "inscricao_estadual": {
+            "length": 15,
+            "position": 17,
+            "register": "311"
+        }
+    },
+    "number": {
+        "format": "integer",
+        "length": 8,
+        "position": 32,
+        "register": "313"
+    },
+    "series": {
+        "length": 3,
+        "position": 29,
+        "register": "313"
+    },
+    "volume": {
+        "mask": 2,
+        "format": "decimal",
+        "length": 7,
+        "position": 78,
+        "register": "313"
+    },
+    "weight": {
+        "mask": 2,
+        "format": "decimal",
+        "length": 7,
+        "position": 100,
+        "register": "313"
+    },
+    "package": {
+        "length": 15,
+        "position": 63,
+        "register": "313"
+    },
+    "recipient": {
+        "name": {
+            "length": 35,
+            "position": 3,
+            "register": "312"
+        },
+        "address": {
+            "city": {
+                "name": {
+                    "length": 30,
+                    "position": 151,
+                    "register": "312"
+                },
+                "state": {
+                    "length": 2,
+                    "position": 198,
+                    "register": "312"
+                }
+            },
+            "line_1": {
+                "length": 64,
+                "position": 67,
+                "register": "312"
+            },
+            "postal_code": {
+                "format": "only_numbers",
+                "length": 8,
+                "position": 181,
+                "register": "312"
+            },
+            "neighborhood": {
+                "length": 19,
+                "position": 112,
+                "register": "312"
+            }
+        },
+        "document": {
+            "length": 14,
+            "position": 38,
+            "register": "312"
+        },
+        "phone_number": {
+            "format": "only_numbers",
+            "length": 35,
+            "position": 204,
+            "register": "312"
+        },
+        "inscricao_estadual": {
+            "length": 15,
+            "position": 52,
+            "register": "312"
+        }
+    },
+    "issue_date": {
+        "mask": "%d%m%Y",
+        "format": "date",
+        "length": 8,
+        "position": 41,
+        "register": "313"
+    },
+    "redispatch": {
+        "name": {
+            "length": 40,
+            "position": 3,
+            "register": "316"
+        },
+        "address": {
+            "city": {
+                "name": {
+                    "length": 35,
+                    "position": 132,
+                    "register": "316"
+                },
+                "state": {
+                    "length": 9,
+                    "position": 185,
+                    "register": "316"
+                }
+            },
+            "line_1": {
+                "length": 40,
+                "position": 72,
+                "register": "316"
+            },
+            "postal_code": {
+                "format": "only_numbers",
+                "length": 9,
+                "position": 167,
+                "register": "316"
+            },
+            "neighborhood": {
+                "length": 20,
+                "position": 112,
+                "register": "316"
+            }
+        },
+        "document": {
+            "length": 14,
+            "position": 43,
+            "register": "316"
+        },
+        "phone_number": {
+            "format": "only_numbers",
+            "length": 35,
+            "position": 198,
+            "register": "316"
+        },
+        "inscricao_estadual": {
+            "length": 15,
+            "position": 57,
+            "register": "316"
+        }
+    },
+    "cubic_volume": {
+        "mask": 2,
+        "format": "decimal",
+        "length": 5,
+        "position": 108,
+        "register": "313"
+    },
+    "order_number": {
+        "length": 15,
+        "position": 3,
+        "register": "313"
+    },
+    "product_classification_description": {
+        "length": 15,
+        "position": 48,
+        "register": "313"
+    },
+    "invoices_keys": {
+        "length": 44,
+        "position": 258,
+        "register": "313"
+    }
+}
