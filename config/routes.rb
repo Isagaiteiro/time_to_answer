@@ -20,4 +20,14 @@ Rails.application.routes.draw do
   
   root to: 'site/welcome#index'
 
+  devise_scope :user do
+    get '/entrar' => 'devise/sessions#new'
+    get '/sair' => 'devise/sessions#destroy'
+  end
+
+  devise_scope :admin do
+    get '/entrar' => 'devise/sessions#new'
+    get '/sair' => 'devise/sessions#destroy'
+  end
+
 end
