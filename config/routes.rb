@@ -25,9 +25,4 @@ Rails.application.routes.draw do
     get '/sair' => 'devise/sessions#destroy'
   end
 
-  devise_scope :admin do
-    get '/entrar' => 'devise/sessions#new'
-    get '/sair' => 'devise/sessions#destroy'
-  end
-
 end
