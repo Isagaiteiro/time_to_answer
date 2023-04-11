@@ -21,8 +21,11 @@ Rails.application.routes.draw do
   root to: 'site/welcome#index'
 
   devise_scope :user do
-    get '/entrar' => 'devise/sessions#new'
-    get '/sair' => 'devise/sessions#destroy'
+    get '/users/sign_out' => 'devise/sessions#destroy'
+  end
+
+  devise_scope :admin do
+    get '/admins/sign_out' => 'devise/sessions#destroy'
   end
 
 

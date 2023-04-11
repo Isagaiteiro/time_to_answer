@@ -1,18 +1,21 @@
 namespace :dev do
 
   DEFAULT_PASSWORD = 123456
+
   desc "Configura o ambiente de desenvolvimento"
   task setup: :environment do
     if Rails.env.development?
-      show_spinner("Apagando o banco de dados...") { %x(rails db:drop) }
-      show_spinner("Criando o banco de dados...") { %x(rails db:create)}
-      show_spinner("Migrando as tabelas...") {%x(rails db:migrate)}
-      show_spinner("Cadastrando o administrador padrão...") {%x(rails dev:add_default_admin)}
-      show_spinner("Cadastrando o usuário padrão...") {%x(rails dev:add_default_user)}
-      
-    else
-      puts "Você não está no ambiente de desenvolvimento!"
+      show_spinner("Apagando BD...") { %x(rails db:drop) }
+      show_spinner("Criando BD...") { %x(rails db:create) }
+      show_spinner("Migrando BD...") { %x(rails db:migrate) }
     end
+
+    show_spinner("Cadastrando o administrador padrão...") { %x(rails dev:add_default_admin) }
+    show_spinner("Cadastrando o usuário padrão...") { %x(rails dev:add_default_user) }
+ 
+    #else
+      #puts "Você não está em ambiente de desenvolvimento!"
+    #end
   end
 
   desc "Adiciona o administrador padrão"
@@ -35,11 +38,11 @@ namespace :dev do
 
   private
 
-  def show_spinner(msg_start, msg_end = "Concluído com sucesso!")
-    spinner = TTY::Spinner.new("[:spinner] #{msg_start}...")
+  def show_spinner(msg_start, msg_end = "Concluído!")
+    spinner = TTY::Spinner.new("[:spinner] #{msg_start}")
     spinner.auto_spin
-    yield #Executa um bloco de código entre do e end quando tem várias linhas, ou entre chaves quando tem só uma linha a ser executada
-    spinner.success(msg_end)
+    yield
+    spinner.success("(#{msg_end})")    
   end
 
 end
