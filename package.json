@@ -7,8 +7,11 @@
   "license": "MIT",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.3",
-    "bootstrap": "4.6.0",
-    "jquery": "3.6.0",
-    "jquery.easing": "1.4.1"
+    "bootstrap": "^5.2.3",
+    "font-awesome": "4.6.3",
+    "jquery": "^3.7.0",
+    "jquery.easing": "^1.4.1",
+    "metismenu": "3.0.3",
+    "sb-admin-2": "^3.3.8"
   }
 }

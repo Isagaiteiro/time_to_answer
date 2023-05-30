@@ -10,6 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require rails-ujs
-//= require activestorage
+import 'trix';
+import Rails from '@rails/ujs';
+import { Turbo } from '@hotwired/turbo';
+
+Rails.start();
+Turbo.connectStreamSource('/cable');
+
 
