@@ -2,5 +2,5 @@
 <p>Find me in app/views/admins_backoffice/welcome/index.html.erb</p>
 
 <% if admin_signed_in? %>
-    <%= link_to "Sign out", "/admins/sign_out" %>
+    <%= link_to "Sign out", destroy_admin_session_path, method: :delete %>
 <% end %>
