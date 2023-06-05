@@ -2,47 +2,22 @@
 # yarn lockfile v1
 
 
-"@fortawesome/fontawesome-free@5.15.3":
-  version "5.15.3"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.3.tgz#c36ffa64a2a239bf948541a97b6ae8d729e09a9a"
-  integrity sha512-rFnSUN/QOtnOAgqFRooTA3H57JLDm0QEG/jPdk+tLQNL/eWd+Aok8g3qCI+Q1xuDPWpGW/i9JySpJVsq8Q0s9w==
-
-bootstrap-growl-ifightcrime@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/bootstrap-growl-ifightcrime/-/bootstrap-growl-ifightcrime-1.1.0.tgz#3f83c12bd29281315580a05ec13841d60031539e"
-  integrity sha512-GDHa1aB/nQWaSZQF0dIWnDFDFsdUGcExYR83scVzDXWxjK/W0ZWSXKxK1wvvQeOGgKaLmAY8MLdxCqYc/1DnxQ==
-
-bootstrap@^5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.3.0.tgz#0718a7cc29040ee8dbf1bd652b896f3436a87c29"
-  integrity sha512-UnBV3E3v4STVNQdms6jSGO2CvOkjUMdDAVR2V5N4uCMdaIkaQjbcEAMqRimDHIs4uqBYzDAKCQwCB+97tJgHQw==
-
-cocoon@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/cocoon/-/cocoon-0.1.1.tgz#e917ec7689b26cde3d567e815bda35a16172ed6e"
-  integrity sha512-QYpB+ntJDDfq7hRIpVPNwmptYA0jXHSAAIkapI+9XG4KBS0Qy9OKE304okOV+OLjnaR0cvwMY0FOgSfmvVtKPQ==
+bootstrap@3.3.7:
+  version "3.3.7"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-3.3.7.tgz#5a389394549f23330875a3b150656574f8a9eb71"
+  integrity sha1-WjiTlFSfIzMIdaOxUGVldPip63E=
 
 font-awesome@4.6.3:
   version "4.6.3"
   resolved "https://registry.yarnpkg.com/font-awesome/-/font-awesome-4.6.3.tgz#86933651540ee00874c664017f50f2172f6531a2"
-  integrity sha512-I5rWuHv7MI5uYDGFT1SJohxdkTfks41QQ9fvMEzvBnWppsehXnoj8LNuW4MGtawSrHvApYVhCZSC7rk5wDycyw==
+  integrity sha1-hpM2UVQO4Ah0xmQBf1DyFy9lMaI=
 
-jquery.easing@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/jquery.easing/-/jquery.easing-1.4.1.tgz#47982c5836bd758fd48494923c4a101ef6e93e3b"
-  integrity sha512-BVpRacWCbNfo/ALWxnLkIY/WRa4Ydg/LtwzIJZvDm7vrhV8Txv+ACi6EGnU11zT19sTc3KEPathWx6CtjWLD1w==
+jquery@3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+  integrity sha512-Ubldcmxp5np52/ENotGxlLe6aGMvmF4R8S6tZjsP6Knsaxd/xp3Zrh50cG93lR6nPXyUFwzN3ZSOQI0wRJNdGg==
 
-jquery@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.0.tgz#fe2c01a05da500709006d8790fe21c8a39d75612"
-  integrity sha512-umpJ0/k8X0MvD1ds0P9SfowREz2LenHsQaxSohMZ5OMNEU2r0tf8pdeEFTHMFxWVxKNyU9rTtK3CWzUCTKJUeQ==
-
-metismenu@^3.0.7:
-  version "3.0.7"
-  resolved "https://registry.yarnpkg.com/metismenu/-/metismenu-3.0.7.tgz#613dd01d14d053474b926a1ecac24d137c934aaa"
-  integrity sha512-omMwIAahlzssjSi3xY9ijkhXI8qEaQTqBdJ9lHmfV5Bld2UkxO2h2M3yWsteAlGJ/nSHi4e69WHDE2r18Ickyw==
-
-sb-admin-2@^3.3.8:
-  version "3.3.8"
-  resolved "https://registry.yarnpkg.com/sb-admin-2/-/sb-admin-2-3.3.8.tgz#9f424ba222b3ea998ed07ff8145d2f022a5b7a8d"
-  integrity sha512-zZCTz/RoNXu4dOAMHzaDBWXtxG0Hmgx8efoH8vfzS1NSMGgpicEGUnKDBUd6fa9tIAz1CLBRJv9aZhl6aHHptQ==
+metismenu@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/metismenu/-/metismenu-3.0.3.tgz#961e4c9469144d5078f6228b6e049e58f3137140"
+  integrity sha512-nd3+yxSivGG0a5JZJxzlbXQv9aovf1yLjIYfa/s49PrvgTLlJsoe90kw9RbA6RPbPatJxENX0CegX4Hlbfaw8w==

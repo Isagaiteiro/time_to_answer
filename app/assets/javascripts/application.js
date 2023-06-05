@@ -10,9 +10,6 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-import Rails from '@rails/ujs';
-
-Rails.start();
-Turbo.connectStreamSource('/cable');
-
-
+//= require jquery
+//= require rails-ujs
+//= require activestorage

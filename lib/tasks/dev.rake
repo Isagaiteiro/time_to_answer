@@ -10,10 +10,9 @@ namespace :dev do
       show_spinner("Migrando BD...") { %x(rails db:migrate) }
       show_spinner("Cadastrando o administrador padrão...") { %x(rails dev:add_default_admin) }
       show_spinner("Cadastrando o usuário padrão...") { %x(rails dev:add_default_user) }
-    end 
-    #else
-      #puts "Você não está em ambiente de desenvolvimento!"
-    #end
+    else
+      puts "Você não está em ambiente de desenvolvimento!"
+    end
   end
 
   desc "Adiciona o administrador padrão"
@@ -42,5 +41,4 @@ namespace :dev do
     yield
     spinner.success("(#{msg_end})")    
   end
-
 end

@@ -2,15 +2,15 @@
 <html>
   <head>
     <title>TimeToAnswer</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
     <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
 
-    <%= stylesheet_link_tag "application" %>
-    <%= javascript_path "application" %>
+    <%= stylesheet_link_tag    'application' %>
+    <%= javascript_include_tag 'application' %>
   </head>
 
   <body>
-  <h1>Layout Users Backoffice</h1>
+    <h1>LAYOUT USERS BACKOFFICE</h1>
     <%= yield %>
   </body>
 </html>
