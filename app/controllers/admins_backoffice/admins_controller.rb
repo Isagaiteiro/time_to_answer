@@ -4,4 +4,8 @@ class AdminsBackoffice::AdminsController < AdminsBackofficeController
     @admins = Admin.all
 
   end
+
+  def edit
+
+  end
 end
