@@ -1,6 +1,6 @@
 class AdminsBackoffice::SubjectsController < AdminsBackofficeController
   
-    before_action :set_admin, only: [:edit, :update, :destroy]
+    before_action :set_subject, only: [:edit, :update, :destroy]
     
     def index
       @subjects = Subject.all.page(params[:page])
